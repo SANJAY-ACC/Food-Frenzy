@@ -1,0 +1,408 @@
+
+
+/* CSS for All */
+html{
+  scroll-behavior: smooth;
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 45vh;
+    height: 30vh;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+/*css for contact page*/
+.content{
+  margin-top: -12vh;
+  height: 80vh;
+  width: 100%;
+  margin-left: -10vh;
+}
+.para{
+
+  background-color:#f1f2f5 ;
+  text-align:left;
+  display:flex;
+  word-spacing: 2px;
+  height: 80vh;
+  width:100%;
+  padding-left: 10vh;
+  padding-top: 7vh;
+}
+.imag{
+  width: 300px;
+  height: 300px;
+  padding-left:1vh;
+}
+.cls1{
+
+  font-family: sans-serif;
+  background-color:white;/* paragraph colour*/
+  height: 70vh;
+  width:50vh;
+  padding-top: 1vh;
+}
+
+.cls2{
+  margin-left: 16vh;
+}
+
+.white{
+  color:white;
+}
+.content2{
+  /*background-color:#ff4757;*/
+
+  background-color:#ff6b81;
+  height: 35vh;
+  width: 100%;
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
+.red1{
+  color: white;
+  height: 20vh;
+  width:80vh;
+  font-size: 20px;
+}
+.red2{
+float: right;
+margin-top: -20vh;
+margin-right: 30vh;
+}
+
+/* css for about page*/
+#heading{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: serif;
+
+}
+#bgrnd{
+  margin-top: 7vh;
+  background-color:#01a9db;
+  height: 40vh;
+}
+#bg{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
+  margin-top: -30px;
+  font-family: inherit;
+}
+.midle{
+  text-align: center;
+  font-family: serif;
+  text-decoration: underline;
+  font-size:50px;
+  margin-top: 10vh;
+}
+.divisn{
+  height: 20vh;
+  background-color: white;/* background color*/
+  font-size: 25px;
+  text-align: center;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top:40px;
+}
+
+          /*that 4 box which is displayed in flex t*/
+.content{
+  height:60vh;
+  width:100%;
+  background-color: white;
+}
+.para{
+  text-align:left;
+  display:flex;
+  word-spacing: 2px;
+  margin-left:10vh;
+}
+.p1{
+
+  text-align:justify;
+  font-family: sans-serif;
+  background-color: white;/* paragraph colour*/
+  height: 50vh;
+  width:40vh;
+  padding-top:2px ;
+  padding-left:5px;
+  padding-right: 10px;
+  font-size: 20px;
+
+}
+.p2{
+
+  text-align: justify;
+  font-family: sans-serif;
+  background-color: white;/* paragraph colour*/
+  height: 50vh;
+  width:45vh;
+  padding-top:2px ;
+  padding-left:5px;
+  margin-left: 2vh;
+  font-size: 20px;
+}
+.p3{
+  text-align: justify  ;
+  font-family: sans-serif;
+  background-color: white;/* paragraph colour*/
+  height: 50vh;
+  width:48vh;
+  padding-top:2px;
+  padding-left:5px;
+  margin-left:2vh;
+  font-size: 20px;
+}
+.p4{
+  text-align: justify  ;
+  font-family: sans-serif;
+  background-color:white;/* paragraph colour*/
+  height: 40vh;
+  width:40vh;
+  padding-top:2px ;
+  padding-left:5px;
+  margin-left: 2vh;
+  font-size: 20px;
+}
+.imge{
+  width: 120px;
+  height:120px;
+  margin-left: 10vh;
+}
+/* css for abt pg*/
+.box1{
+  background-color: #ff4757;
+  height: 100vh ;
+  width: 100%;
+  margin-top: -26px;
+}
+.box2{
+  background-color: white;
+  height: 85vh;
+  width: 70%;
+  margin-top: -95vh;
+  margin-left: 9vh;
+}
+.box3{
+  background-image: url('../images/abt.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 530px;
+  float: right;
+  margin-top: -78vh;
+  margin-right: 9vh;
+}
+.box4{
+  background-color: white;
+  height: 500px;
+  width: 650px;
+  margin-left: 10vh;
+}
+#b4{
+  padding-top: 40px;
+  font-size: 40px;
+  font-family: serif;
+
+}
+.bx4{
+  background-color: white;
+  width: 95%;
+  padding-top: 30px;
+  font-size: 26px;
+  font-family: serif;
+  text-align: justify;
+}

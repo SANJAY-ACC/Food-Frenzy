@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>address</title>
+    <link rel="stylesheet" href="address.css">
+  </head>
+  <body>
+    <h1></h1>
+    <div class="container">
+      <u><h1></h1></u>
+      <div class="container2">
+        <form class="frm" action="address.php" method="post">
+            <label for="name" >Name:</label>
+            <input type="text" id="name"  name="name"class="frmctrl" required>
+
+            <label for="number" >Phone number:</label>
+            <input type="text" id="number" name="number" class="frmctrl"required>
+
+            <label for="email" >Email:</label>
+            <input type="text" id="email" name="email" class="frmctrl" required>
+
+            <label for="doorno" >Door no:</label>
+            <input type="text" id="doorno" name="doorno" class="frmctrl" required>
+
+            <label for="landmark" >Landmark:</label>
+            <input type="text" id="landmark" name="landmark" class="frmctrl" required>
+
+            <label for="area" >Area:</label>
+            <input type="text" id="area" name="area" class="frmctrl" required>
+
+            <label for="pincode" >Pincode:</label>
+            <input type="text" id="pincode" name="pincode" class="frmctrl" required>
+
+            <label for="city" >City:</label>
+            <input type="text" id="city" name="city" class="frmctrl" required>
+
+            <label for="state" >State:</label>
+            <select class="frmctrl" name="state">
+              <option value="">-----Select-----</option>
+              <option value="karnataka">KARNATAKA</option>
+              <option value="tamilnadu">TAMIL NADU</option>
+              <option value="kerala">KERALA</option>
+              <option value="andrapredesh">ANDRA PRADESH</option>
+            </select>
+
+            <input type="submit" class="btn" value="Submit">
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+</html>

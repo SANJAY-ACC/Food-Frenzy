@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>registration form</title>
+    <link rel="stylesheet" href="regi.css">
+  </head>
+  <body>
+    <section class="navbar">
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="../home.php" class="top">Home</a>
+                    </li>
+                    <li>
+                        <a href="../contact.php" class="top">Contact</a>
+                    </li>
+                    <li>
+                        <a href="../abt.php" class="top">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="sect">
+      <u><h1>Creat account</h1></u>
+        <div class="container">
+
+            <div class="login">
+                  <form class="frm" action="regi.php" method="post">
+                      <label for="firstname">First name:</label>
+                      <input type="text" id="firstname"  name="firstname"class="frmctrl" required>
+
+                      <label for="lastname">Last name :</label>
+                      <input type="text" id="lastname" name="lastname" class="frmctrl" required>
+
+                      <label for="email">Email:</label>
+                      <input type="text" id="email" name="email" class="frmctrl" required>
+
+                      <label for="password">Password:</label>
+                      <input type="text" id="password" name="password" class="frmctrl" required>
+
+                      <input type="submit" class="btn" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </section>
+
+        <p class="center"> Developed by-<a href="#" class=" menu lin">SCS teams</a></p>
+
+  </body>
+</html>
